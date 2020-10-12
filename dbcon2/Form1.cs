@@ -27,6 +27,7 @@ namespace dbcon2
 
         private void btnTest_Click(object sender, EventArgs e)
         {
+            btnTest.Enabled = false;
             BusinessMetaLayer ml = BusinessMetaLayer.instance();
             m_customers = ml.getCustomers();
             m_bs.DataSource = m_customers;

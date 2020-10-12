@@ -44,6 +44,7 @@ namespace dbcon2
                     connection = new OleDatabaseConnection(m_properties);
                 else if (provider.Equals("Microsoft.ACE.OLEDB.12.0"))
                     // See https://www.microsoft.com/en-us/download/details.aspx?id=54920 for Office 365
+                    // https://docs.microsoft.com/en-us/office/troubleshoot/access/cannot-use-odbc-or-oledb 
                     connection = new OleDatabaseConnection(m_properties);
                 else
                 {

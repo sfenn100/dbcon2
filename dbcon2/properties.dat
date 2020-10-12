@@ -1,0 +1,5 @@
+Provider=MySQL
+Server=192.168.12.20
+User=reader
+Password=LetMeIn
+Database=CrashCourse
